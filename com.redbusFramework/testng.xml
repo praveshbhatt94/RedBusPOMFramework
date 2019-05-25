@@ -7,7 +7,7 @@
 <test name="HomeTest">
 <classes>
 <class name="com.redbusFramework.testcases.HomePageTitleTest" />
-<class name="com.redbusFramework.testcases.HomePageTitleTest2" />
+<class name="com.redbusFramework.testcases.SearchBusPageTitleTest" />
 </classes>
 </test>
 </suite>

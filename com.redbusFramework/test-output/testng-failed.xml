@@ -6,13 +6,13 @@
   </listeners>
   <test name="HomeTest(failed)" parallel="tests">
     <classes>
-      <class name="com.redbusFramework.testcases.HomePageTitleTest2">
+      <class name="com.redbusFramework.testcases.SearchBusPageTitleTest">
         <methods>
-          <include name="verifyHomePageTitle"/>
           <include name="tearDown"/>
+          <include name="verifyogin"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.redbusFramework.testcases.HomePageTitleTest2 -->
+      </class> <!-- com.redbusFramework.testcases.SearchBusPageTitleTest -->
     </classes>
   </test> <!-- HomeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

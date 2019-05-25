@@ -2,29 +2,63 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="25517" started-at="2019-05-25T10:03:39Z" finished-at="2019-05-25T10:04:05Z">
+  <suite name="Suite" duration-ms="127917" started-at="2019-05-25T16:04:20Z" finished-at="2019-05-25T16:06:28Z">
     <groups>
     </groups>
-    <test name="HomeTest" duration-ms="25517" started-at="2019-05-25T10:03:39Z" finished-at="2019-05-25T10:04:05Z">
-      <class name="com.redbusFramework.testcases.HomePageTitleTest2">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.redbusFramework.testcases.HomePageTitleTest2@66a3ffec]" name="setUp" is-config="true" duration-ms="8343" started-at="2019-05-25T15:33:54Z" finished-at="2019-05-25T15:34:02Z">
+    <test name="HomeTest" duration-ms="127917" started-at="2019-05-25T16:04:20Z" finished-at="2019-05-25T16:06:28Z">
+      <class name="com.redbusFramework.testcases.SearchBusPageTitleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.redbusFramework.testcases.SearchBusPageTitleTest@66a3ffec]" name="setUp" is-config="true" duration-ms="20923" started-at="2019-05-25T21:35:24Z" finished-at="2019-05-25T21:35:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyHomePageTitle()[pri:0, instance:com.redbusFramework.testcases.HomePageTitleTest2@66a3ffec]" name="verifyHomePageTitle" duration-ms="65" started-at="2019-05-25T15:34:02Z" finished-at="2019-05-25T15:34:02Z">
-          <exception class="java.lang.AssertionError">
+        <test-method status="FAIL" signature="verifyogin()[pri:0, instance:com.redbusFramework.testcases.SearchBusPageTitleTest@66a3ffec]" name="verifyogin" duration-ms="39741" started-at="2019-05-25T21:35:45Z" finished-at="2019-05-25T21:36:25Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[expected [Boo Bus Travels, AC Volvo Bus, Hotels & Bus Hire - redBus] but found [Book Bus Travels, AC Volvo Bus, Hotels & Bus Hire - redBus]]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@id='search_div']//ul/li)[1]"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-A5D55VAQ', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Dhiki\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 7a15a294a90e9db96b2ab2cd79ae6603
+*** Element info: {Using=xpath, value=(//div[@id='search_div']//ul/li)[1]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Boo Bus Travels, AC Volvo Bus, Hotels & Bus Hire - redBus] but found [Book Bus Travels, AC Volvo Bus, Hotels & Bus Hire - redBus]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at org.testng.Assert.assertEquals(Assert.java:199)
-	at com.redbusFramework.testcases.HomePageTitleTest2.verifyHomePageTitle(HomePageTitleTest2.java:39)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@id='search_div']//ul/li)[1]"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-A5D55VAQ', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Dhiki\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 7a15a294a90e9db96b2ab2cd79ae6603
+*** Element info: {Using=xpath, value=(//div[@id='search_div']//ul/li)[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at com.redbusFramework.pages.HomePage.searchBus(HomePage.java:64)
+	at com.redbusFramework.testcases.SearchBusPageTitleTest.verifyogin(SearchBusPageTitleTest.java:50)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -47,25 +81,25 @@
 	at java.lang.Thread.run(Thread.java:745)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyHomePageTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.redbusFramework.testcases.HomePageTitleTest2@66a3ffec]" name="tearDown" is-config="true" duration-ms="901" started-at="2019-05-25T15:34:04Z" finished-at="2019-05-25T15:34:05Z">
+        </test-method> <!-- verifyogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.redbusFramework.testcases.SearchBusPageTitleTest@66a3ffec]" name="tearDown" is-config="true" duration-ms="1621" started-at="2019-05-25T21:36:27Z" finished-at="2019-05-25T21:36:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.redbusFramework.testcases.HomePageTitleTest2 -->
+      </class> <!-- com.redbusFramework.testcases.SearchBusPageTitleTest -->
       <class name="com.redbusFramework.testcases.HomePageTitleTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.redbusFramework.testcases.HomePageTitleTest@3e6fa38a]" name="setUp" is-config="true" duration-ms="13791" started-at="2019-05-25T15:33:39Z" finished-at="2019-05-25T15:33:53Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.redbusFramework.testcases.HomePageTitleTest@3e6fa38a]" name="setUp" is-config="true" duration-ms="57618" started-at="2019-05-25T21:34:23Z" finished-at="2019-05-25T21:35:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHomePageTitle()[pri:0, instance:com.redbusFramework.testcases.HomePageTitleTest@3e6fa38a]" name="verifyHomePageTitle" duration-ms="68" started-at="2019-05-25T15:33:53Z" finished-at="2019-05-25T15:33:53Z">
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:0, instance:com.redbusFramework.testcases.HomePageTitleTest@3e6fa38a]" name="verifyHomePageTitle" duration-ms="328" started-at="2019-05-25T21:35:21Z" finished-at="2019-05-25T21:35:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.redbusFramework.testcases.HomePageTitleTest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="861" started-at="2019-05-25T15:33:53Z" finished-at="2019-05-25T15:33:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.redbusFramework.testcases.HomePageTitleTest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="3088" started-at="2019-05-25T21:35:21Z" finished-at="2019-05-25T21:35:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
