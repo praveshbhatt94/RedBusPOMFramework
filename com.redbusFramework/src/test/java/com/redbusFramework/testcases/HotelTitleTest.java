@@ -41,9 +41,9 @@ public class HotelTitleTest extends TestBase {
 	}
 	
 	@Test
-	public void verifyogin() {
+	public void verifyHotelPageTitle() {
 		homePage.navigateHotelPage();
-		Assert.assertEquals(hotelPage.verifyHotelPageTitle(), "Online Hotel Booking: Budget & Luxury Star Hotels in India – red:Hotel");
+		Assert.assertEquals(hotelPage.verifyHotelPageTitle(), "Online Hotel Booking: Cheap, Budget & Luxury Star Hotels India – redBus.in");
 	}
 
 	@AfterMethod

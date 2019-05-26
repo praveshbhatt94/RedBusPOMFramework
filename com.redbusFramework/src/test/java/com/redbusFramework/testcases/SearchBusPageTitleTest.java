@@ -39,7 +39,7 @@ public class SearchBusPageTitleTest extends TestBase {
 	}
 	
 	@Test
-	public void verifyogin() {
+	public void verifySearchBusPageTitle() {
 		homePage.searchBus("Bangalore", "Chennai");
 		Assert.assertEquals(searchBusPage.verifySearchPageTitle(), "Search Bus Tickets");
 	}

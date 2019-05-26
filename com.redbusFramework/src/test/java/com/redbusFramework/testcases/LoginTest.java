@@ -38,7 +38,7 @@ public class LoginTest extends TestBase {
 	}
 	
 	@Test
-	public void login() throws InterruptedException {
+	public void verifylogin() throws InterruptedException {
 		Assert.assertEquals(homePage.verifyHomePageTitle(), "Book Bus Travels, AC Volvo Bus, Hotels & Bus Hire - redBus");
 		homePage.navigateLoginPage();
 		loginPage.signInForm("dhikibhatt01@gmail.com", "Dhiki@3182");

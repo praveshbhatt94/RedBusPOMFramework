@@ -6,13 +6,27 @@
   </listeners>
   <test name="HomeTest(failed)" parallel="tests">
     <classes>
+      <class name="com.redbusFramework.testcases.HotelTitleTest">
+        <methods>
+          <include name="verifyHotelPageTitle"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.redbusFramework.testcases.HotelTitleTest -->
       <class name="com.redbusFramework.testcases.SearchBusPageTitleTest">
         <methods>
           <include name="tearDown"/>
-          <include name="verifyogin"/>
+          <include name="verifySearchBusPageTitle"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.redbusFramework.testcases.SearchBusPageTitleTest -->
+      <class name="com.redbusFramework.testcases.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifylogin"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.redbusFramework.testcases.LoginTest -->
     </classes>
   </test> <!-- HomeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="3" ignored="0" total="5" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="127917" started-at="2019-05-25T16:04:20Z" finished-at="2019-05-25T16:06:28Z">
+  <suite name="Suite" duration-ms="212507" started-at="2019-05-26T13:54:19Z" finished-at="2019-05-26T13:57:51Z">
     <groups>
     </groups>
-    <test name="HomeTest" duration-ms="127917" started-at="2019-05-25T16:04:20Z" finished-at="2019-05-25T16:06:28Z">
+    <test name="HomeTest" duration-ms="212507" started-at="2019-05-26T13:54:19Z" finished-at="2019-05-26T13:57:51Z">
       <class name="com.redbusFramework.testcases.SearchBusPageTitleTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.redbusFramework.testcases.SearchBusPageTitleTest@66a3ffec]" name="setUp" is-config="true" duration-ms="20923" started-at="2019-05-25T21:35:24Z" finished-at="2019-05-25T21:35:45Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.redbusFramework.testcases.SearchBusPageTitleTest@3bfdc050]" name="setUp" is-config="true" duration-ms="19728" started-at="2019-05-26T19:26:23Z" finished-at="2019-05-26T19:26:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyogin()[pri:0, instance:com.redbusFramework.testcases.SearchBusPageTitleTest@66a3ffec]" name="verifyogin" duration-ms="39741" started-at="2019-05-25T21:35:45Z" finished-at="2019-05-25T21:36:25Z">
+        <test-method status="FAIL" signature="verifySearchBusPageTitle()[pri:0, instance:com.redbusFramework.testcases.SearchBusPageTitleTest@3bfdc050]" name="verifySearchBusPageTitle" duration-ms="34224" started-at="2019-05-26T19:26:43Z" finished-at="2019-05-26T19:27:17Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@id='search_div']//ul/li)[1]"}
@@ -20,10 +20,10 @@
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'LAPTOP-A5D55VAQ', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+System info: host: 'LAPTOP-A5D55VAQ', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Dhiki\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
-Session ID: 7a15a294a90e9db96b2ab2cd79ae6603
+Session ID: 013c2a3f86b18194a81c2a85880ab046
 *** Element info: {Using=xpath, value=(//div[@id='search_div']//ul/li)[1]}]]>
             </message>
             <full-stacktrace>
@@ -33,10 +33,10 @@ Session ID: 7a15a294a90e9db96b2ab2cd79ae6603
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'LAPTOP-A5D55VAQ', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+System info: host: 'LAPTOP-A5D55VAQ', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Dhiki\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
-Session ID: 7a15a294a90e9db96b2ab2cd79ae6603
+Session ID: 013c2a3f86b18194a81c2a85880ab046
 *** Element info: {Using=xpath, value=(//div[@id='search_div']//ul/li)[1]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -57,8 +57,8 @@ Session ID: 7a15a294a90e9db96b2ab2cd79ae6603
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy9.click(Unknown Source)
-	at com.redbusFramework.pages.HomePage.searchBus(HomePage.java:64)
-	at com.redbusFramework.testcases.SearchBusPageTitleTest.verifyogin(SearchBusPageTitleTest.java:50)
+	at com.redbusFramework.pages.HomePage.searchBus(HomePage.java:71)
+	at com.redbusFramework.testcases.SearchBusPageTitleTest.verifySearchBusPageTitle(SearchBusPageTitleTest.java:43)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -84,22 +84,133 @@ Session ID: 7a15a294a90e9db96b2ab2cd79ae6603
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.redbusFramework.testcases.SearchBusPageTitleTest@66a3ffec]" name="tearDown" is-config="true" duration-ms="1621" started-at="2019-05-25T21:36:27Z" finished-at="2019-05-25T21:36:28Z">
+        </test-method> <!-- verifySearchBusPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.redbusFramework.testcases.SearchBusPageTitleTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="845" started-at="2019-05-26T19:27:18Z" finished-at="2019-05-26T19:27:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.redbusFramework.testcases.SearchBusPageTitleTest -->
-      <class name="com.redbusFramework.testcases.HomePageTitleTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.redbusFramework.testcases.HomePageTitleTest@3e6fa38a]" name="setUp" is-config="true" duration-ms="57618" started-at="2019-05-25T21:34:23Z" finished-at="2019-05-25T21:35:21Z">
+      <class name="com.redbusFramework.testcases.HotelTitleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.redbusFramework.testcases.HotelTitleTest@5e3a8624]" name="setUp" is-config="true" duration-ms="8123" started-at="2019-05-26T19:27:32Z" finished-at="2019-05-26T19:27:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHomePageTitle()[pri:0, instance:com.redbusFramework.testcases.HomePageTitleTest@3e6fa38a]" name="verifyHomePageTitle" duration-ms="328" started-at="2019-05-25T21:35:21Z" finished-at="2019-05-25T21:35:21Z">
+        <test-method status="FAIL" signature="verifyHotelPageTitle()[pri:0, instance:com.redbusFramework.testcases.HotelTitleTest@5e3a8624]" name="verifyHotelPageTitle" duration-ms="9192" started-at="2019-05-26T19:27:41Z" finished-at="2019-05-26T19:27:50Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Online Hotel Booking: Cheap, Budget & Luxury Star Hotels in India – red:Hotel] but found [Online Hotel Booking: Cheap, Budget & Luxury Star Hotels India – redBus.in]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Online Hotel Booking: Cheap, Budget & Luxury Star Hotels in India – red:Hotel] but found [Online Hotel Booking: Cheap, Budget & Luxury Star Hotels India – redBus.in]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.redbusFramework.testcases.HotelTitleTest.verifyHotelPageTitle(HotelTitleTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHotelPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.redbusFramework.testcases.HotelTitleTest@5e3a8624]" name="tearDown" is-config="true" duration-ms="821" started-at="2019-05-26T19:27:50Z" finished-at="2019-05-26T19:27:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.redbusFramework.testcases.HotelTitleTest -->
+      <class name="com.redbusFramework.testcases.RPoolTitleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.redbusFramework.testcases.RPoolTitleTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="9400" started-at="2019-05-26T19:27:19Z" finished-at="2019-05-26T19:27:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyRPoolPageTitle()[pri:0, instance:com.redbusFramework.testcases.RPoolTitleTest@1bce4f0a]" name="verifyRPoolPageTitle" duration-ms="3481" started-at="2019-05-26T19:27:28Z" finished-at="2019-05-26T19:27:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRPoolPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.redbusFramework.testcases.RPoolTitleTest@1bce4f0a]" name="tearDown" is-config="true" duration-ms="861" started-at="2019-05-26T19:27:32Z" finished-at="2019-05-26T19:27:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.redbusFramework.testcases.RPoolTitleTest -->
+      <class name="com.redbusFramework.testcases.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.redbusFramework.testcases.LoginTest@42d80b78]" name="setUp" is-config="true" duration-ms="24396" started-at="2019-05-26T19:24:58Z" finished-at="2019-05-26T19:25:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifylogin()[pri:0, instance:com.redbusFramework.testcases.LoginTest@42d80b78]" name="verifylogin" duration-ms="56578" started-at="2019-05-26T19:25:23Z" finished-at="2019-05-26T19:26:19Z">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index: 0, Size: 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at com.redbusFramework.pages.LoginPage.signInForm(LoginPage.java:56)
+	at com.redbusFramework.testcases.LoginTest.verifylogin(LoginTest.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.redbusFramework.testcases.LoginTest@42d80b78]" name="tearDown" is-config="true" duration-ms="1026" started-at="2019-05-26T19:26:22Z" finished-at="2019-05-26T19:26:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.redbusFramework.testcases.LoginTest -->
+      <class name="com.redbusFramework.testcases.HomePageTitleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.redbusFramework.testcases.HomePageTitleTest@1e88b3c]" name="setUp" is-config="true" duration-ms="37954" started-at="2019-05-26T19:24:19Z" finished-at="2019-05-26T19:24:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:0, instance:com.redbusFramework.testcases.HomePageTitleTest@1e88b3c]" name="verifyHomePageTitle" duration-ms="50" started-at="2019-05-26T19:24:57Z" finished-at="2019-05-26T19:24:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.redbusFramework.testcases.HomePageTitleTest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="3088" started-at="2019-05-25T21:35:21Z" finished-at="2019-05-25T21:35:24Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.redbusFramework.testcases.HomePageTitleTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="1021" started-at="2019-05-26T19:24:57Z" finished-at="2019-05-26T19:24:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

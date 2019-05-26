@@ -6,7 +6,7 @@
       <class name="com.redbusFramework.testcases.LoginTest">
         <methods>
           <include name="tearDown"/>
-          <include name="verifyogin"/>
+          <include name="login"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.redbusFramework.testcases.LoginTest -->

@@ -40,7 +40,7 @@ public class RPoolTitleTest extends TestBase {
 	}
 	
 	@Test
-	public void verifyogin() {
+	public void verifyRPoolPageTitle() {
 		homePage.navigateRpoolPage();
 		Assert.assertEquals(rPoolPage.verifyRPoolPageTitle(), "rPool - Carpool App | Use the new redBus carpooling app.");
 	}

@@ -64,14 +64,22 @@ public class HomePage extends TestBase {
 	}
 	
 	public  void searchBus(String from, String to) {
-		fromSrc.sendKeys(from);
-		fromSrc.sendKeys(Keys.TAB);
-		fromAddress.click();
-		toDest.sendKeys(to);
-		toAddress.click();
-		onwardCalender.click();
-		toCalender.click();
-		searchbtn.click();
+		try {
+			Thread.sleep(3000);
+			fromSrc.sendKeys(from);
+			fromSrc.sendKeys(Keys.TAB);
+			Thread.sleep(3000);
+			fromAddress.click();
+			toDest.sendKeys(to);
+			toAddress.click();
+			onwardCalender.click();
+			toCalender.click();
+			searchbtn.click();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 	}
 	
 	public void navigateLoginPage() {
