@@ -38,7 +38,7 @@ public class HomePage extends TestBase {
 	WebElement searchbtn;
 	
 	
-	@FindBy (xpath = "//div[@id='rb-calendar_onward_cal']/table[1]/tbody/tr[6]/td[6]")
+	@FindBy (xpath = "//div[@id='rb-calendar_onward_cal']/table[1]/tbody/tr[7]/td[4]")
 	WebElement toCalender;
 	
 	
@@ -51,6 +51,11 @@ public class HomePage extends TestBase {
 	@FindBy (id = "signInLink")
 	WebElement signInLink;
 	
+	@FindBy (xpath = "//a[@title='cars']")
+	WebElement rPoolLink;
+	
+	@FindBy (xpath = "//a[@title='redBus Hotels']")
+	WebElement hotelLink;
 	
 	public static String verifyHomePageTitle() {
 		String homePageTitle = driver.getTitle();
@@ -72,6 +77,16 @@ public class HomePage extends TestBase {
 	public void navigateLoginPage() {
 		signInmenu.click();
 		signInLink.click();
+	}
+	
+	public void navigateRpoolPage() {
+		rPoolLink.click();
+		
+	}
+	
+	public void navigateHotelPage() {
+		hotelLink.click();
+		
 	}
 	
 

@@ -9,19 +9,21 @@ import org.testng.annotations.Test;
 
 import com.redbusFramework.base.TestBase;
 import com.redbusFramework.pages.HomePage;
+import com.redbusFramework.pages.HotelPage;
 import com.redbusFramework.pages.LoginPage;
+import com.redbusFramework.pages.RPoolPage;
 import com.redbusFramework.pages.SearchBusPage;
 import com.redbusFramework.util.TestUtil;
 
 
 
-public class SearchBusPageTitleTest extends TestBase {
+public class HotelTitleTest extends TestBase {
 	
 	TestUtil testUtil;
 	HomePage homePage;
-	SearchBusPage searchBusPage;
+	HotelPage hotelPage;
 	
-	public SearchBusPageTitleTest(){
+	public HotelTitleTest(){
 		super();
 		
 }
@@ -32,7 +34,7 @@ public class SearchBusPageTitleTest extends TestBase {
 		initialization();
 		//testUtil = new TestUtil();
 		homePage = new HomePage();
-		searchBusPage = new SearchBusPage();
+		hotelPage = new HotelPage();
 		//TestUtil.runTimeInfo("error", "Title Verifyed successful");
 		//testUtil.switchToFrame();
 		
@@ -40,8 +42,8 @@ public class SearchBusPageTitleTest extends TestBase {
 	
 	@Test
 	public void verifyogin() {
-		homePage.searchBus("Bangalore", "Chennai");
-		Assert.assertEquals(searchBusPage.verifySearchPageTitle(), "Search Bus Tickets");
+		homePage.navigateHotelPage();
+		Assert.assertEquals(hotelPage.verifyHotelPageTitle(), "Online Hotel Booking: Budget & Luxury Star Hotels in India – red:Hotel");
 	}
 
 	@AfterMethod

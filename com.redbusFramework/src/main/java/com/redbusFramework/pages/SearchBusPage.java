@@ -15,7 +15,9 @@ import com.redbusFramework.base.TestBase;
 public class SearchBusPage extends TestBase {
 	
 	
-	
+	@FindBy (xpath = "//div[contains(text(),'View Seats')]")
+	WebElement viewSeatsBtn;
+
 	
 	
 	public SearchBusPage() {

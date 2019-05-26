@@ -7,7 +7,10 @@
 <test name="HomeTest">
 <classes>
 <class name="com.redbusFramework.testcases.HomePageTitleTest" />
+<class name="com.redbusFramework.testcases.LoginTest" />
 <class name="com.redbusFramework.testcases.SearchBusPageTitleTest" />
+<class name="com.redbusFramework.testcases.RPoolTitleTest" />
+<class name="com.redbusFramework.testcases.HotelTitleTest" />
 </classes>
 </test>
 </suite>

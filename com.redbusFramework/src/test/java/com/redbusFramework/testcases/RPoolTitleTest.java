@@ -10,18 +10,19 @@ import org.testng.annotations.Test;
 import com.redbusFramework.base.TestBase;
 import com.redbusFramework.pages.HomePage;
 import com.redbusFramework.pages.LoginPage;
+import com.redbusFramework.pages.RPoolPage;
 import com.redbusFramework.pages.SearchBusPage;
 import com.redbusFramework.util.TestUtil;
 
 
 
-public class SearchBusPageTitleTest extends TestBase {
+public class RPoolTitleTest extends TestBase {
 	
 	TestUtil testUtil;
 	HomePage homePage;
-	SearchBusPage searchBusPage;
+	RPoolPage rPoolPage;
 	
-	public SearchBusPageTitleTest(){
+	public RPoolTitleTest(){
 		super();
 		
 }
@@ -32,7 +33,7 @@ public class SearchBusPageTitleTest extends TestBase {
 		initialization();
 		//testUtil = new TestUtil();
 		homePage = new HomePage();
-		searchBusPage = new SearchBusPage();
+		rPoolPage = new RPoolPage();
 		//TestUtil.runTimeInfo("error", "Title Verifyed successful");
 		//testUtil.switchToFrame();
 		
@@ -40,8 +41,8 @@ public class SearchBusPageTitleTest extends TestBase {
 	
 	@Test
 	public void verifyogin() {
-		homePage.searchBus("Bangalore", "Chennai");
-		Assert.assertEquals(searchBusPage.verifySearchPageTitle(), "Search Bus Tickets");
+		homePage.navigateRpoolPage();
+		Assert.assertEquals(rPoolPage.verifyRPoolPageTitle(), "rPool - Carpool App | Use the new redBus carpooling app.");
 	}
 
 	@AfterMethod

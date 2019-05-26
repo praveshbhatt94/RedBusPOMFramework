@@ -10,18 +10,17 @@ import org.testng.annotations.Test;
 import com.redbusFramework.base.TestBase;
 import com.redbusFramework.pages.HomePage;
 import com.redbusFramework.pages.LoginPage;
-import com.redbusFramework.pages.SearchBusPage;
 import com.redbusFramework.util.TestUtil;
 
 
 
-public class SearchBusPageTitleTest extends TestBase {
+public class LoginTest extends TestBase {
 	
 	TestUtil testUtil;
 	HomePage homePage;
-	SearchBusPage searchBusPage;
+	LoginPage loginPage;
 	
-	public SearchBusPageTitleTest(){
+	public LoginTest(){
 		super();
 		
 }
@@ -32,16 +31,18 @@ public class SearchBusPageTitleTest extends TestBase {
 		initialization();
 		//testUtil = new TestUtil();
 		homePage = new HomePage();
-		searchBusPage = new SearchBusPage();
+		loginPage = new LoginPage();
 		//TestUtil.runTimeInfo("error", "Title Verifyed successful");
 		//testUtil.switchToFrame();
 		
 	}
 	
 	@Test
-	public void verifyogin() {
-		homePage.searchBus("Bangalore", "Chennai");
-		Assert.assertEquals(searchBusPage.verifySearchPageTitle(), "Search Bus Tickets");
+	public void login() throws InterruptedException {
+		Assert.assertEquals(homePage.verifyHomePageTitle(), "Book Bus Travels, AC Volvo Bus, Hotels & Bus Hire - redBus");
+		homePage.navigateLoginPage();
+		loginPage.signInForm("dhikibhatt01@gmail.com", "Dhiki@3182");
+		Assert.assertEquals(loginPage.signInForm("dhikibhatt01@gmail.com", "Dhiki@3182"), "Either the Email id or Phone number or Password is incorrect. Please try again.");
 	}
 
 	@AfterMethod
